@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1540510079318' stop='1540510081359'>
+    <name>Teste de pesquisa de CEP no site dos correios > </name>
+    <title>Teste de pesquisa de CEP no site dos correios > </title>
+    <test-cases>
+        <test-case start='1540510079318' status='passed' stop='1540510081359'>
+            <name>Pesquisando o CEP por Endereço</name>
+            <title>Pesquisando o CEP por Endereço</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='phantomjs'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"phantomjs","chromeOptions":{"args":["--start-maximized","--start-fullscreen"]}}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\natal\\Desktop\\Testes\\WebdriverIO\\specs\\buscarCEP.spec.ts"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
